@@ -2,3 +2,136 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #eee;
+    color: #fff;
+    font: 14px Arial, sans-serif;
+}
+
+.container {
+    height: 500px;
+    width: 800px;
+    position: relative;
+    margin: 50px auto;
+    overflow: hidden;
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #fff),color-stop(1, #0093d8));
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+.bottom-snow {
+    position: absolute;
+    z-index: 5;
+    top: 400px;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 500px;
+    background: #e2e2e2;
+    border-radius: 50%;
+}
+
+.bottom-snow:before {
+    background-color: #fff;
+    content: "";
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    top: -25px;
+    border-radius: 1000px;
+    left: 400px;
+}
+
+.bottom-snow:after {
+    background-color: #fff;
+    content: "";
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    top: -25px;
+    border-radius: 1000px;
+    right: 400px;
+}
+
+h1 {
+    color: #fafafa;
+    font: bold 80px Arial;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tree {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-radius: 40px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid green;
+    left: 390px;
+    top: 135px;
+}
+
+.tree:before {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-radius: 40px;
+    content: "";
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid green;
+    left: -40px;
+    top: 15px;
+}
+
+.tree:after {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-radius: 40px;
+    content: "";
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid green;
+    left: -60px;
+    top: 40px;
+}
+
+.tree-bottom {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-radius: 40px;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid green;
+    left: 330px;
+    top: 210px;
+}
+
+.tree-bottom:before {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-radius: 40px;
+    content: "";
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid green;
+    left: -100px;
+    top: 40px;
+}
+
+.tree-bottom:after {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-radius: 40px;
+    content: "";
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid green;
+    left: -120px;
+    top: 80px;
+}
