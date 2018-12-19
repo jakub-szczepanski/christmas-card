@@ -135,3 +135,93 @@ h1 {
     left: -120px;
     top: 80px;
 }
+
+.bauble-lg-1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 345px;
+    left: 390px;
+    background-color: white;
+}
+
+.bauble-lg-2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 325px;
+    left: 340px;
+    background-color: yellow;
+}
+
+.bauble-lg-3 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 325px;
+    left: 440px;
+    background-color: red;
+}
+
+.bauble-md-1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 290px;
+    left: 394px;
+    background-color: pink;
+}
+
+.bauble-md-2 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 265px;
+    left: 360px;
+    background-color: darkslategrey;
+}
+
+.bauble-md-3 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 265px;
+    left: 430px;
+    background-color: black;
+}
+
+.bauble-sm-1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+    background-color: purple;
+}
+
+.bauble-sm-2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 220px;
+    left: 380px;
+    background-color: brown;
+}
+
+.bauble-sm-3 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 220px;
+    left: 420px;
+    background-color: orange;
+}
