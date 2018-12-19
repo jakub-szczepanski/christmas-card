@@ -143,7 +143,7 @@ h1 {
     position: absolute;
     top: 345px;
     left: 390px;
-    background-color: white;
+    background-image: url(./images/flags/uk.svg)
 }
 
 .bauble-lg-2 {
@@ -153,7 +153,7 @@ h1 {
     position: absolute;
     top: 325px;
     left: 340px;
-    background-color: yellow;
+    background-image: url(./images/flags/france.svg);
 }
 
 .bauble-lg-3 {
@@ -163,7 +163,7 @@ h1 {
     position: absolute;
     top: 325px;
     left: 440px;
-    background-color: red;
+    background-image: url(./images/flags/spain.svg);
 }
 
 .bauble-md-1 {
@@ -173,7 +173,7 @@ h1 {
     position: absolute;
     top: 290px;
     left: 394px;
-    background-color: pink;
+    background-image: url(./images/flags/pl.svg);
 }
 
 .bauble-md-2 {
@@ -183,7 +183,7 @@ h1 {
     position: absolute;
     top: 265px;
     left: 360px;
-    background-color: darkslategrey;
+    background-image: url(./images/flags/germany.svg);
 }
 
 .bauble-md-3 {
@@ -193,7 +193,7 @@ h1 {
     position: absolute;
     top: 265px;
     left: 430px;
-    background-color: black;
+    background-image: url(./images/flags/russia.svg);
 }
 
 .bauble-sm-1 {
@@ -203,7 +203,7 @@ h1 {
     position: absolute;
     top: 240px;
     left: 400px;
-    background-color: purple;
+    background-image: url(./images/flags/greece.svg);
 }
 
 .bauble-sm-2 {
@@ -213,7 +213,7 @@ h1 {
     position: absolute;
     top: 220px;
     left: 380px;
-    background-color: brown;
+    background-image: url(./images/flags/italy.svg);
 }
 
 .bauble-sm-3 {
@@ -223,7 +223,7 @@ h1 {
     position: absolute;
     top: 220px;
     left: 420px;
-    background-color: orange;
+    background-image: url(./images/flags/sweden.svg);
 }
 
 .falling-snow {
