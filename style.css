@@ -172,6 +172,7 @@ h1 {
     top: 579px;
     left: 184px;
     background-image: url(./images/flags/france.svg);
+    outline: none;
 }
 
 .bauble-lg-3 {
@@ -182,7 +183,7 @@ h1 {
     top: 562px;
     left: 290px;
     background-image: url(./images/flags/pl.svg);
-    innerHTML: PL;
+    outline: none;
 }
 
 .bauble-md-1 {
@@ -193,6 +194,7 @@ h1 {
     top: 533px;
     left: 235px;
     background-image: url(./images/flags/spain.svg);
+    outline: none;
 }
 
 .bauble-md-2 {
@@ -203,6 +205,7 @@ h1 {
     top: 489px;
     left: 208px;
     background-image: url(./images/flags/germany.svg);
+    outline: none;
 }
 
 .bauble-md-3 {
@@ -213,6 +216,7 @@ h1 {
     top: 497px;
     left: 279px;
     background-image: url(./images/flags/russia.svg);
+    outline: none;
 }
 
 .bauble-sm-1 {
@@ -223,6 +227,7 @@ h1 {
     top: 450px;
     left: 262px;
     background-image: url(./images/flags/greece.svg);
+    outline: none;
 }
 
 .bauble-sm-2 {
@@ -233,6 +238,7 @@ h1 {
     top: 430px;
     left: 225px;
     background-image: url(./images/flags/italy.svg);
+    outline: none;
 }
 
 .bauble-sm-3 {
@@ -243,6 +249,7 @@ h1 {
     top: 390px;
     left: 255px;
     background-image: url(./images/flags/sweden.svg);
+    outline: none;
 }
 
 .falling-snow {
