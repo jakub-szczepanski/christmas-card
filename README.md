@@ -1,5 +1,5 @@
 # christmas-card
-Christmas card made with HTML, CSS and JS
+Christmas card made with HTML, CSS and JS // IN PROGRESS
 # Demo
 https://jakub-szczepanski.github.io/christmas-card/
 # Credit
