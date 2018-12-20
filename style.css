@@ -10,19 +10,19 @@ body {
 }
 
 .container {
-    height: 500px;
-    width: 800px;
+    height: 800px;
+    width: 500px;
     position: relative;
     margin: 50px auto;
     overflow: hidden;
-    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #fff),color-stop(1, #0093d8));
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #fff),color-stop(1, #01036e));
     box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .bottom-snow {
     position: absolute;
     z-index: 5;
-    top: 400px;
+    top: 666px;
     left: 50%;
     margin-left: -500px;
     width: 1000px;
@@ -58,6 +58,23 @@ h1 {
     font: bold 80px Arial;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.smaller {
+    color: #fafafa;
+    font: bold 60px Arial;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.smallerGreece {
+    color: #fafafa;
+    font: bold 50px Arial;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
 }
 
 .tree {
@@ -65,27 +82,14 @@ h1 {
     height: 0;
     width: 0;
     border-radius: 40px;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid green;
-    left: 390px;
-    top: 135px;
-}
-
-.tree:before {
-    position: absolute;
-    height: 0;
-    width: 0;
-    border-radius: 40px;
-    content: "";
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
     border-bottom: 40px solid green;
-    left: -40px;
-    top: 15px;
+    left: 213px;
+    top: 330px;
 }
 
-.tree:after {
+.tree:before {
     position: absolute;
     height: 0;
     width: 0;
@@ -95,7 +99,20 @@ h1 {
     border-right: 60px solid transparent;
     border-bottom: 60px solid green;
     left: -60px;
-    top: 40px;
+    top: 26px;
+}
+
+.tree:after {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-radius: 40px;
+    content: "";
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid green;
+    left: -80px;
+    top: 64px;
 }
 
 .tree-bottom {
@@ -103,27 +120,14 @@ h1 {
     height: 0;
     width: 0;
     border-radius: 40px;
-    border-left: 80px solid transparent;
-    border-right: 80px solid transparent;
-    border-bottom: 80px solid green;
-    left: 330px;
-    top: 210px;
-}
-
-.tree-bottom:before {
-    position: absolute;
-    height: 0;
-    width: 0;
-    border-radius: 40px;
-    content: "";
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
     border-bottom: 100px solid green;
-    left: -100px;
-    top: 40px;
+    left: 153px;
+    top: 441px;
 }
 
-.tree-bottom:after {
+.tree-bottom:before {
     position: absolute;
     height: 0;
     width: 0;
@@ -133,7 +137,20 @@ h1 {
     border-right: 120px solid transparent;
     border-bottom: 120px solid green;
     left: -120px;
-    top: 80px;
+    top: 48px;
+}
+
+.tree-bottom:after {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-radius: 40px;
+    content: "";
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 140px solid green;
+    left: -140px;
+    top: 93px;
 }
 
 .bauble-lg-1 {
@@ -141,9 +158,10 @@ h1 {
     width: 40px;
     border-radius: 50%;
     position: absolute;
-    top: 345px;
-    left: 390px;
-    background-image: url(./images/flags/uk.svg)
+    top: 603px;
+    left: 244px;
+    background-image: url(./images/flags/uk.svg);
+    outline: none;
 }
 
 .bauble-lg-2 {
@@ -151,8 +169,8 @@ h1 {
     width: 40px;
     border-radius: 50%;
     position: absolute;
-    top: 325px;
-    left: 340px;
+    top: 579px;
+    left: 184px;
     background-image: url(./images/flags/france.svg);
 }
 
@@ -161,9 +179,10 @@ h1 {
     width: 40px;
     border-radius: 50%;
     position: absolute;
-    top: 325px;
-    left: 440px;
-    background-image: url(./images/flags/spain.svg);
+    top: 562px;
+    left: 290px;
+    background-image: url(./images/flags/pl.svg);
+    innerHTML: PL;
 }
 
 .bauble-md-1 {
@@ -171,9 +190,9 @@ h1 {
     width: 30px;
     border-radius: 50%;
     position: absolute;
-    top: 290px;
-    left: 394px;
-    background-image: url(./images/flags/pl.svg);
+    top: 533px;
+    left: 235px;
+    background-image: url(./images/flags/spain.svg);
 }
 
 .bauble-md-2 {
@@ -181,8 +200,8 @@ h1 {
     width: 30px;
     border-radius: 50%;
     position: absolute;
-    top: 265px;
-    left: 360px;
+    top: 489px;
+    left: 208px;
     background-image: url(./images/flags/germany.svg);
 }
 
@@ -191,8 +210,8 @@ h1 {
     width: 30px;
     border-radius: 50%;
     position: absolute;
-    top: 265px;
-    left: 430px;
+    top: 497px;
+    left: 279px;
     background-image: url(./images/flags/russia.svg);
 }
 
@@ -201,8 +220,8 @@ h1 {
     width: 20px;
     border-radius: 50%;
     position: absolute;
-    top: 240px;
-    left: 400px;
+    top: 450px;
+    left: 262px;
     background-image: url(./images/flags/greece.svg);
 }
 
@@ -211,8 +230,8 @@ h1 {
     width: 20px;
     border-radius: 50%;
     position: absolute;
-    top: 220px;
-    left: 380px;
+    top: 430px;
+    left: 225px;
     background-image: url(./images/flags/italy.svg);
 }
 
@@ -221,8 +240,8 @@ h1 {
     width: 20px;
     border-radius: 50%;
     position: absolute;
-    top: 220px;
-    left: 420px;
+    top: 390px;
+    left: 255px;
     background-image: url(./images/flags/sweden.svg);
 }
 
