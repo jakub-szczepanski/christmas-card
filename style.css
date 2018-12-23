@@ -1,3 +1,4 @@
+/* General styles */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,14 @@ body {
     background-color: #eee;
     color: #fff;
     font: 14px Roboto, sans-serif;
+}
+
+h1 {
+    color: #fafafa;
+    font: bold 80px Roboto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 110px;
 }
 
 .container {
@@ -19,6 +28,7 @@ body {
     box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
+/* Snow */
 .bottom-snow {
     position: absolute;
     z-index: 5;
@@ -53,30 +63,7 @@ body {
     right: 400px;
 }
 
-h1 {
-    color: #fafafa;
-    font: bold 80px Roboto;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 90px;
-}
-
-.smaller {
-    color: #fafafa;
-    font: bold 60px Roboto;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 70px;
-}
-
-.smallerGreece {
-    color: #fafafa;
-    font: bold 50px Roboto;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 70px;
-}
-
+/* Christmas tree */
 .tree {
     position: absolute;
     height: 0;
@@ -153,6 +140,7 @@ h1 {
     top: 93px;
 }
 
+/* Buttons */
 .bauble-lg-1 {
     height: 40px;
     width: 40px;
@@ -252,6 +240,7 @@ h1 {
     outline: none;
 }
 
+/* Snow animation */
 .falling-snow {
     background-image: url('./images/snow/snow1.png'), url('./images/snow/snow2.png'), url('./images/snow/snow3.png');
     height: 100%;
@@ -268,6 +257,7 @@ h1 {
     100% {background-position: 500px 1000px, 200px 400px, -100px 300px}
 }
 
+/* Click the bauble animation */
 .pulse {
     animation: pulse 1s ease-out;
     animation-iteration-count: infinite;
@@ -280,11 +270,11 @@ h1 {
     100% {opacity: .8; transform: scale(.95)}
 }
 
-/* Moving letters */
+/* Letters animation */
 .headMain {
     position: relative;
     font-weight: 900;
-    font-size: 2.6em;
+    font-size: 2.5em;
     /*overflow: hidden;*/
 }
 
