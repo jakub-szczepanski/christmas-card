@@ -15,7 +15,7 @@ h1 {
     font: bold 80px Roboto;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 110px;
+    margin-top: 83px;
 }
 
 .container {
@@ -62,6 +62,41 @@ h1 {
     border-radius: 1000px;
     right: 400px;
 }
+
+/* Star */
+.star {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 246px;
+    margin-right: .9em;
+    margin-bottom: -8.8em;
+    border-right: .3em solid transparent;
+    border-bottom: .7em solid #FC0;
+    border-left: .3em solid transparent;
+    font-size: 23px;
+    z-index: 5;
+}
+
+.star:before, .star:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: .6em;
+    left: -1em;
+    border-right:  1em solid transparent;
+    border-bottom: .7em solid #FC0;
+    border-left:   1em solid transparent;
+    transform: rotate(-35deg);
+}
+    
+.star:after {  
+    transform: rotate(35deg);
+}
+  
 
 /* Christmas tree */
 .tree {
