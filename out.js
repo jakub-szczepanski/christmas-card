@@ -38,40 +38,40 @@ function movingLetters() {
 uk.addEventListener('click', function () {
     headerText.innerHTML = "Merry Christmas";
     headerText.classList.remove('pulse');
-    headerText.style.fontSize = ".95em";
-    headerText.style.marginTop = "90px";
+    //headerText.style.fontSize = ".95em";
+    //headerText.style.marginTop = "90px";
     movingLetters().exit();
 });
 
 fr.addEventListener('click', function () {
     headerText.innerHTML = "Joyeux noel";
     headerText.classList.remove('pulse');
-    headerText.style.fontSize = ".95em";
-    headerText.style.marginTop = "90px";
+    //headerText.style.fontSize = ".95em";
+    //headerText.style.marginTop = "90px";
     movingLetters().exit();
 })
 
 pl.addEventListener('click', function () {
     headerText.innerHTML = "Wesołych Świąt";
     headerText.classList.remove('pulse');
-    headerText.style.fontSize = ".95em";
-    headerText.style.marginTop = "90px";
+    //headerText.style.fontSize = ".95em";
+    //headerText.style.marginTop = "90px";
     movingLetters().exit();
 })
 
 esp.addEventListener('click', function () {
     headerText.innerHTML = "Feliz navidad";
     headerText.classList.remove('pulse');
-    headerText.style.fontSize = ".95em";
-    headerText.style.marginTop = "90px";
+    //headerText.style.fontSize = ".95em";
+    //headerText.style.marginTop = "90px";
     movingLetters().exit();
 })
 
 ger.addEventListener('click', function () {
     headerText.innerHTML = "Frohe Weihnachten";
     headerText.classList.remove('pulse');
-    headerText.style.fontSize = ".95em";
-    headerText.style.marginTop = "90px";
+    //headerText.style.fontSize = ".95em";
+    //headerText.style.marginTop = "90px";
     movingLetters().exit();
 })
 
@@ -79,7 +79,7 @@ rus.addEventListener('click', function () {
     //headerText.innerHTML = "Schastlivogo Rozhdestva";
     headerText.innerHTML = "Счастливого Рождества";
     headerText.classList.remove('pulse');
-    headerText.style.fontSize = ".95em";
+    //headerText.style.fontSize = ".95em";
     //headerText.style.marginTop = "-30px";
     movingLetters().exit();
 })
@@ -88,23 +88,23 @@ gr.addEventListener('click', function () {
     //headerText.innerHTML = "Kalá Christoúgenna";
     headerText.innerHTML = "Καλά Χριστούγεννα";
     headerText.classList.remove('pulse');
-    headerText.style.fontSize = ".95em";
-    headerText.style.marginTop = "90px";
+    //headerText.style.fontSize = ".95em";
+    //headerText.style.marginTop = "90px";
     movingLetters().exit();
 })
 
 it.addEventListener('click', function () {
     headerText.innerHTML = "Buon Natale";
     headerText.classList.remove('pulse');
-    headerText.style.fontSize = ".95em";
-    headerText.style.marginTop = "90px";
+    //headerText.style.fontSize = ".95em";
+    //headerText.style.marginTop = "90px";
     movingLetters().exit();
 })
 
 swe.addEventListener('click', function () {
     headerText.innerHTML = "God jul";
     headerText.classList.remove('pulse');
-    headerText.style.fontSize = ".95em";
-    headerText.style.marginTop = "90px";
+    //headerText.style.fontSize = ".95em";
+    //headerText.style.marginTop = "90px";
     movingLetters().exit();
 })
