@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christmas Card</title>
     <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
 </head>
 
 <body>
@@ -13,7 +14,10 @@
         <div class="bottom-snow"></div>
         <div class="tree"></div>
         <div class="tree-bottom"></div>
-        <h1 id="headText" class="pulse">Click the bauble!</h1>
+        <h1 class="headMain">
+            <div class="letters pulse" id="headText">Click the bauble!</div>
+        </h1>
+        <!--<h1 id="headText" class="pulse">Click the bauble!</h1>-->
         <div class="falling-snow"></div>
         <button class="bauble-lg-1" id="uk"></button>
         <button class="bauble-lg-2" id="fr"></button>
@@ -26,6 +30,9 @@
         <button class="bauble-sm-3" id="swe"></button>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="out.js"></script>
 </body>
 
